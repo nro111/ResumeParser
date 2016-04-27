@@ -29,7 +29,7 @@ publications = Array.new([])
  
  def calculateExperience   
    #extracts a single skill and bruteforce checks if it is similar to every job, cert, degree, or pub listed in the resume. Does this until there are no more skills left in the skills collection
-   c = Calculate.new() 
+   calculate = Calculate.new() 
    compare = Compare.new()
    skills.each do |skill|     
      jobs.each do |job|
