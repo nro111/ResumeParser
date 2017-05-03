@@ -1,0 +1,6 @@
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\bin\Debug\ResumeParser.exe.config
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\bin\Debug\ResumeParser.exe
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\bin\Debug\ResumeParser.pdb
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\obj\Debug\ResumeParser.csprojResolveAssemblyReference.cache
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\obj\Debug\ResumeParser.exe
+c:\users\normsby\documents\visual studio 2015\Projects\ExperienceParser\ResumeParser\obj\Debug\ResumeParser.pdb
