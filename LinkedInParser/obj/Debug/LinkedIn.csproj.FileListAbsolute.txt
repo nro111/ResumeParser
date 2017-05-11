@@ -1,0 +1,1 @@
+C:\Users\normsby\Documents\GitHub\ResumeParser\LinkedInParser\obj\Debug\LinkedIn.csprojResolveAssemblyReference.cache

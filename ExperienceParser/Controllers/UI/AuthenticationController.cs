@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
 using System.Web.Mvc;
 
-namespace ExperienceParser.Controllers.Authentication
+namespace ExperienceParser.Controllers.UI
 {
     public class AuthenticationController : Controller
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
-
             return View();
         }
     }

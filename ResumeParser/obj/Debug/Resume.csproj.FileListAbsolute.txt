@@ -1,0 +1,3 @@
+C:\Users\normsby\Documents\GitHub\ResumeParser\ResumeParser\obj\Debug\Resume.csprojResolveAssemblyReference.cache
+C:\Users\normsby\Documents\GitHub\ResumeParser\ResumeParser\obj\Debug\ResumeParser.exe
+C:\Users\normsby\Documents\GitHub\ResumeParser\ResumeParser\obj\Debug\ResumeParser.pdb
