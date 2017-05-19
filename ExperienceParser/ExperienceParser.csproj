@@ -218,6 +218,7 @@
     <Content Include="Content\Login\style-responsive.css" />
     <Content Include="Content\Login\style.css" />
     <Content Include="Content\plagin.css" />
+    <Content Include="Content\RecruiterSearchBox.css" />
     <Content Include="Content\responsive.css" />
     <Content Include="Content\style.css" />
     <Content Include="Content\iconStyles.min.css" />
@@ -287,6 +288,7 @@
     <Content Include="Scripts\jquery.scrollTo.min.js" />
     <Content Include="Scripts\jquery.sparkline.js" />
     <Content Include="Scripts\plagin.js" />
+    <Content Include="Scripts\RecruiterSearchBox.js" />
     <Content Include="Scripts\sparkline-chart.js" />
     <Content Include="Scripts\zabuto_calendar.js" />
     <Content Include="Views\Dashboard\Applicant.cshtml" />
