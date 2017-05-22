@@ -8,6 +8,7 @@ namespace ExperienceParser.Controllers.UI
 {
     public class HomeController : Controller
     {
+        [AllowAnonymous]
         public ActionResult Index()
         {
             ViewBag.Title = "Home Page";
