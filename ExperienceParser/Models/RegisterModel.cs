@@ -27,6 +27,10 @@ namespace ExperienceParser.Models
         public string UserType { get; set; }
 
         [Required]
+        [DataType(DataType.PhoneNumber)]
+        public string Phone { get; set; }
+
+        [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
     }

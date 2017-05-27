@@ -162,7 +162,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Views\App\" />
-    <Folder Include="Views\Auth\" />
+    <Folder Include="Views\Authentication\" />
     <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
@@ -326,7 +326,7 @@
     <Content Include="Views\Dashboard\Applicant.cshtml" />
     <Content Include="Views\Dashboard\Recruiter.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Authentication\LogIn.cshtml" />
+    <Content Include="Views\Auth\LogIn.cshtml" />
     <Content Include="Content\font-awesome\css\.DS_Store" />
     <Content Include="Content\font-awesome\fonts\.DS_Store" />
     <Content Include="Content\font-awesome\fonts\fontawesome-webfont.eot" />
@@ -335,7 +335,7 @@
     <Content Include="Content\font-awesome\fonts\FontAwesome.otf" />
     <Content Include="Views\Search\JobSearch.cshtml" />
     <Content Include="Views\Search\UserSearch.cshtml" />
-    <Content Include="Views\Authentication\Register.cshtml" />
+    <Content Include="Views\Auth\Register.cshtml" />
     <None Include="_bin_deployableAssemblies\x86\sqlcese40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceqp40.dll" />
     <None Include="_bin_deployableAssemblies\x86\sqlceme40.dll" />

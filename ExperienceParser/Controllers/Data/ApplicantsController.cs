@@ -18,16 +18,16 @@ namespace ExperienceParser.Controllers.Data
         private readonly ApplicantContext db = new ApplicantContext();
 
         // GET: api/Applicants
-        public IQueryable<Applicant> GetApplicants()
+        public IQueryable<AppUser> GetApplicants()
         {
             return db.Applicants;
         }
 
         // GET: api/Applicants/5
-        [ResponseType(typeof(Applicant))]
+        [ResponseType(typeof(AppUser))]
         public IHttpActionResult GetApplicant(int id)
         {
-            Applicant applicant = db.Applicants.Find(id);
+            AppUser applicant = db.Applicants.Find(id);
             if (applicant == null)
             {
                 return NotFound();
@@ -38,7 +38,7 @@ namespace ExperienceParser.Controllers.Data
 
         // PUT: api/Applicants/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutApplicant(int id, Applicant applicant)
+        public IHttpActionResult PutApplicant(int id, AppUser applicant)
         {
             if (!ModelState.IsValid)
             {
@@ -72,8 +72,8 @@ namespace ExperienceParser.Controllers.Data
         }
 
         // POST: api/Applicants
-        [ResponseType(typeof(Applicant))]
-        public IHttpActionResult PostApplicant(Applicant applicant)
+        [ResponseType(typeof(AppUser))]
+        public IHttpActionResult PostApplicant(AppUser applicant)
         {
             if (!ModelState.IsValid)
             {
@@ -87,10 +87,10 @@ namespace ExperienceParser.Controllers.Data
         }
 
         // DELETE: api/Applicants/5
-        [ResponseType(typeof(Applicant))]
+        [ResponseType(typeof(AppUser))]
         public IHttpActionResult DeleteApplicant(int id)
         {
-            Applicant applicant = db.Applicants.Find(id);
+            AppUser applicant = db.Applicants.Find(id);
             if (applicant == null)
             {
                 return NotFound();

@@ -211,3 +211,16 @@ C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Antlr3.Runtime
 C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\obj\Debug\ExperienceParser.csprojResolveAssemblyReference.cache
 C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\obj\Debug\ExperienceParser.dll
 C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\obj\Debug\ExperienceParser.pdb
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Security.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Owin.dll
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.xml
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Security.xml
+C:\Users\otere\Documents\GitHub\ResumeParser\ExperienceParser\bin\Microsoft.Owin.Security.Cookies.xml

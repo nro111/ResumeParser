@@ -19,6 +19,6 @@ namespace ExperienceParser.Context
         {
         }
 
-        public System.Data.Entity.DbSet<ExperienceParser.Models.Applicant> Applicants { get; set; }
+        public System.Data.Entity.DbSet<ExperienceParser.AppUser> Applicants { get; set; }
     }
 }
