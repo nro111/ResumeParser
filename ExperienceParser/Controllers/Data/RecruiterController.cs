@@ -13,44 +13,44 @@ using ExperienceParser.Models;
 
 namespace ExperienceParser.Controllers.Data
 {
-    public class ApplicantsController : ApiController
+    public class RecruiterController : ApiController
     {
-        private readonly ApplicantContext db = new ApplicantContext();
+        private readonly RecruiterContext db = new RecruiterContext();
 
-        // GET: api/Applicants
-        public IQueryable<AppUser> GetApplicants()
+        // GET: api/Recruiters
+        public IQueryable<AppUser> GetRecruiters()
         {
-            return db.Applicants;
+            return db.Recruiters;
         }
 
-        // GET: api/Applicants/5
+        // GET: api/Recruiters/5
         [ResponseType(typeof(AppUser))]
-        public IHttpActionResult GetApplicant(int id)
+        public IHttpActionResult GetRecruiter(int id)
         {
-            AppUser applicant = db.Applicants.Find(id);
-            if (applicant == null)
+            AppUser recruiter = db.Recruiters.Find(id);
+            if (recruiter == null)
             {
                 return NotFound();
             }
 
-            return Ok(applicant);
+            return Ok(recruiter);
         }
 
-        // PUT: api/Applicants/5
+        // PUT: api/Recruiters/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutApplicant(int id, AppUser applicant)
+        public IHttpActionResult PutRecruiter(int id, AppUser recruiter)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            if (id != applicant.ID)
+            if (id != recruiter.ID)
             {
                 return BadRequest();
             }
 
-            db.Entry(applicant).State = EntityState.Modified;
+            db.Entry(recruiter).State = EntityState.Modified;
 
             try
             {
@@ -58,7 +58,7 @@ namespace ExperienceParser.Controllers.Data
             }
             catch (DbUpdateConcurrencyException)
             {
-                if (!ApplicantExists(id))
+                if (!RecruiterExists(id))
                 {
                     return NotFound();
                 }
@@ -71,35 +71,35 @@ namespace ExperienceParser.Controllers.Data
             return StatusCode(HttpStatusCode.NoContent);
         }
 
-        // POST: api/Applicants
+        // POST: api/Recruiters
         [ResponseType(typeof(AppUser))]
-        public IHttpActionResult PostApplicant(AppUser applicant)
+        public IHttpActionResult PostRecruiter(AppUser recruiter)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
 
-            db.Applicants.Add(applicant);
+            db.Recruiters.Add(recruiter);
             db.SaveChanges();
 
-            return CreatedAtRoute("DefaultApi", new { id = applicant.ID }, applicant);
+            return CreatedAtRoute("DefaultApi", new { id = recruiter.ID }, recruiter);
         }
 
-        // DELETE: api/Applicants/5
+        // DELETE: api/Recruiters/5
         [ResponseType(typeof(AppUser))]
-        public IHttpActionResult DeleteApplicant(int id)
+        public IHttpActionResult DeleteRecruiter(int id)
         {
-            AppUser applicant = db.Applicants.Find(id);
-            if (applicant == null)
+            AppUser recruiter = db.Recruiters.Find(id);
+            if (recruiter == null)
             {
                 return NotFound();
             }
 
-            db.Applicants.Remove(applicant);
+            db.Recruiters.Remove(recruiter);
             db.SaveChanges();
 
-            return Ok(applicant);
+            return Ok(recruiter);
         }
 
         protected override void Dispose(bool disposing)
@@ -111,9 +111,9 @@ namespace ExperienceParser.Controllers.Data
             base.Dispose(disposing);
         }
 
-        private bool ApplicantExists(int id)
+        private bool RecruiterExists(int id)
         {
-            return db.Applicants.Count(e => e.ID == id) > 0;
+            return db.Recruiters.Count(e => e.ID == id) > 0;
         }
     }
 }

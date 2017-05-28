@@ -9,11 +9,13 @@ namespace ExperienceParser.Controllers.UI
 {
     public class DashboardController : Controller
     {
+        [AllowAnonymous]
         public ActionResult Recruiter()
         {
             return View();
         }
 
+        [AllowAnonymous]
         public ActionResult Applicant()
         {
             return View();

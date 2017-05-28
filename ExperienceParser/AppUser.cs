@@ -9,7 +9,7 @@ namespace ExperienceParser
     public partial class AppUser : IdentityUser
     {
         [Key]
-        public int ApplicantID { get; set; }
+        public int ID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string UserType { get; set; }
